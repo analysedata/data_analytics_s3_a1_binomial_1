@@ -34,3 +34,21 @@ we know it's single sample of 6 voters,
 outcomes are either for or against the proposition,
 each vote is Independent of each other,
 this is a random sample.
+
+******************************************************************************************************************************************
+
+2. 
+Professor Willoughby is marking a test.
+Here are the students’ results (out of 60 points):  20, 15, 26, 32, 18, 28, 35, 14, 26, 22, 17 
+Most students didn't even get 30 out of 60, and most will fail.
+The test must have been really hard, so the Prof decides to standardize all the scores and only fail people 1 standard deviation below the mean. So who will fail? 
+
+Answer: Those students with scores of 15 and 14 will fail.
+
+Details:
+Mean: 23.00	
+Standard Deviation: 6.63	
+One Standard Deviation below the Mean: 16.37
+Students with scores at and less than 16.37 failed.
+ 
+******************************************************************************************************************************************
