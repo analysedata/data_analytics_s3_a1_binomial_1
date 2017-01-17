@@ -1,0 +1,36 @@
+1. As voters exit the polls, you ask a representative random sample of 6 voters if they voted for proposition 100. If the true percentage of voters who vote for the proposition is 55.1%, what is the probability that, in your sample, exactly 2 voted for the proposition and 4 did not?
+
+Problem: P(X=2)		
+Given:
+	n = 6
+	P = 0.551
+	x = 2
+	n - x = 4
+	1 - p = 0.449
+
+Answer: P(X=2) = 0.18508866
+
+Details:
+
+Binomial Formula: P(X=x) = (nCx ) * p^x * (1-p)^(n-x) = 0.18508866
+
+Calculate all Combinations (nCr):
+Factorials of 6 (n): 6x5x4x3x2x1 = 720
+Factorials of 4 (n-x): 4x3x2x1 = 24
+Factorials of 2 (x): 2x1 = 2
+
+Formula for all combinations (n! / (n - x)! * x!):
+nCx = 720 / (24*2) = 15 --->
+
+P^x = 0.303601 --->
+
+(1-p)^(n-x) = 0.04064296 --->
+
+Therefore:
+nCx * p^x * (1-p)^(n-x) = 0.18508866 ------>
+
+Binomial probability formula is appropriate here because:
+we know it's single sample of 6 voters,
+outcomes are either for or against the proposition,
+each vote is Independent of each other,
+this is a random sample.
